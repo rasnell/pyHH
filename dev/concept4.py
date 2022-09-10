@@ -81,7 +81,7 @@ if __name__ == "__main__":
 
     ax1.plot(times, voltages - 70, 'b')
     ax1.set_ylabel("Membrane Potential (mV)")
-    ax1.set_title("Hodgkin-Huxley Spiking Neuron Model", fontSize=16)
+    ax1.set_title("Hodgkin-Huxley Spiking Neuron Model", fontdict={'fontsize': 16})
     ax1.spines['right'].set_visible(False)
     ax1.spines['top'].set_visible(False)
     ax1.spines['bottom'].set_visible(False)
